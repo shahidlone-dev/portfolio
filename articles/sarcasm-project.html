@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sarcasm Detection — Shahid</title>
+<link rel="stylesheet" href="../index.css">
+<style>
+.project-page {
+    max-width: 900px;
+    margin: auto;
+    padding: 100px 22px;
+}
+.status {
+    display: inline-block;
+    padding: 7px 14px;
+    background: var(--tag);
+    color: var(--accent);
+    border-radius: 30px;
+    font-size: 12px;
+    margin: 20px 0;
+}
+.project-page h1 {
+    font-size: clamp(38px, 7vw, 62px);
+}
+.project-page p {
+    color: var(--muted);
+    max-width: 680px;
+}
+.project-panel {
+    margin-top: 35px;
+    padding: 28px;
+    background: var(--panel);
+    border: 1px solid var(--line);
+    border-radius: 16px;
+}
+</style>
+</head>
+
+<body>
+
+<div class="wrap nav">
+    <a class="brand" href="../index.html">Shahid<span>.</span></a>
+    <a href="../index.html#projects">← Back to portfolio</a>
+</div>
+
+<main class="project-page">
+
+    <div class="kicker">PROJECT / NATURAL LANGUAGE PROCESSING</div>
+
+    <div class="status">● Project showcase coming soon</div>
+
+    <h1>Sarcasm Detection in Conversation.</h1>
+
+    <p>
+        A conversational AI project exploring how context and
+        language patterns can help identify sarcasm in dialogue.
+        The public source repository is available, while the full
+        project walkthrough and live demo are still being prepared.
+    </p>
+
+    <div class="tags">
+        <span class="tag">NLP</span>
+        <span class="tag">PyTorch</span>
+        <span class="tag">Transformers</span>
+        <span class="tag">BERT</span>
+        <span class="tag">Conversational AI</span>
+    </div>
+
+    <div class="project-panel">
+        <div class="kicker">CURRENT STATUS</div>
+        <h2>Full showcase yet to be uploaded.</h2>
+        <p>
+            The detailed explanation, results, screenshots, and demo
+            will be added here as the project presentation is completed.
+            Until then, you can explore the source code on GitHub.
+        </p>
+    </div>
+
+    <div class="actions">
+        <a class="btn"
+           href="https://github.com/shahidlone-dev/ghost-sarcasm-subsystem"
+           target="_blank"
+           rel="noopener noreferrer">
+           View Source on GitHub ↗
+        </a>
+
+        <a class="btn outline" href="../index.html#projects">
+            Return to Projects
+        </a>
+    </div>
+
+</main>
+
+<footer class="wrap footer">
+    © <span id="year"></span> Shahid.
+</footer>
+
+<script>
+document.getElementById("year").textContent =
+    new Date().getFullYear();
+</script>
+
+</body>
+</html>
